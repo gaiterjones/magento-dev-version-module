@@ -1,5 +1,5 @@
 #PAJ_DevVersion
-app/code/community/PAJ/DevVersion    app/code/community/PAJ/DevVersion
+app/code/local/PAJ/DevVersion    app/code/local/PAJ/DevVersion
 app/etc/modules/PAJ_DevVersion.xml    app/etc/modules/PAJ_DevVersion.xml
 app/design/adminhtml/default/default/layout/paj/devversion   app/design/adminhtml/default/default/layout/paj/devversion
 app/design/adminhtml/default/default/template/paj/devversion    app/design/adminhtml/default/default/template/paj/devversion
