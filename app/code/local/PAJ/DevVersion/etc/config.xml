@@ -34,7 +34,7 @@
         <layout>
             <updates>
                 <devversion>
-                    <file>paj/devversion.xml</file>
+                    <file>paj/devversion/devversion.xml</file>
                 </devversion>
             </updates>
         </layout>
