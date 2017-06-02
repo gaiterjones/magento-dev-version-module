@@ -32,7 +32,7 @@ class PAJ_DevVersion_Model_Version extends Mage_Core_Model_Abstract
 			$_git='https://raw.githubusercontent.com/'. $_gitHubUser. '/magento-dev-version/master/'. $_host. '-'. $_ip. '/'. $_base. '/devVersion.txt';
 			
 			if($this->get_http_response_code($_git) != "200"){
-				$this->devVersion='<br><span title="'. $_git. '">Development ver. Not found</span>';
+				$this->devVersion='<br><span title="'. $_git. '">Development ver. ('. $_host. ') Not found</span>';
 				return;
 			}
 			
